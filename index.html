@@ -16,7 +16,11 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
+				<section>
+        				<h1>Presentation title</h1>
+        					<p class="fragment fade-up">We're going to talk about some aspect of...  </p>
+        					<div class="fragment fade-up"><h2 class="fragment shrink">compression</h2></div>	
+      				</section>
 				<section>Slide 2</section>
 			</div>
 		</div>
@@ -30,6 +34,13 @@
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
+				controls: true,
+  				progress: false,
+  				history: true,
+  				center: true,
+				transition: 'convex',
+				transitionSpeed: 'default',
+				backgroundTransition: 'default',
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
